@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+<body>
+	<div class="mybody" style="height: auto;">
+		<div class="top">
+			<div class="ss">
+				<form>
+					<input type="hidden" name="m" value="search" />
+				    <input type="hidden" name="c" value="index" />
+				    <input type="hidden" name="a" value="init" />
+				    <input type="hidden" name="typeid" value="1" id="typeid" />
+				    <input type="hidden" name="siteid" value="1" id="siteid" />
+				    <div class="inss">
+				    	<select name="where">
+				    		<option value="all">全部</option>
+				            <option value="title">标题</option>
+				            <option value="keywords">关键字</option>
+				    	</select>
+				    </div>
+				    <div class="inss">
+				    	<input type="text" name="q" id="q" placeholder="请输入关键字" />
+				    </div>
+				    <div class="inss">
+				    	<input type="submit" class="ssbtn" id="search" value=" " />
+				    </div>
+				</form>
+			</div>
+			<ul class="nav">
+				<li class="now">
+					<a href="index.html">首页</a>
+				</li>
+				<li>
+					信息公开
+					<ul style="left: 524.5px;">
+						<li><a href="">组织机构</a></li> 
+						<li><a href="">政策法规</a></li> 
+						<li><a href="">应急管理</a></li> 
+						<li><a href="">发展规划</a></li> 
+						<li><a href="">人事任免</a></li> 
+						<li><a href="">政策解读</a></li> 
+						<li><a href="">电子公文</a></li> 
+						<li><a href="">招商引资</a></li> 
+						<li><a href="">行政审批制度改革</a></li> 
+					</ul>
+				</li> 
+				<li>
+					<a href="" style="height:auto;">印象北戴河</a>
+					<ul style="left: 669.5px;">
+						<li><a href="">基本概况</a></li>
+						<li><a href="">生态之城</a></li>
+						<li><a href="">文化之城</a></li>
+						<li><a href="">休闲之城</a></li>
+						<li><a href="">运动之城</a></li>
+						<li><a href="">发展之城</a></li>
+						<li><a href="">历史之城</a></li>
+						<li><a href="">文明之城</a></li>
+					</ul>
+				</li>
+				<li>政民互动
+					<ul style="left: 994.5px;">
+						<li><a href="">领导信箱</a></li>
+						<li><a href="">民意征集</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="" style="height:auto;">网上办事</a>
+					<ul style="left: 1229.5px;">
+					</ul>
+				</li>
+				<li>专题专栏
+					<ul style="left: 1059.5px;">
+						<li><a href="">星火普法</a></li>
+						<li><a href="">财政预决算</a></li>
+						<li><a href="">十九大精神解读</a></li>
+						<li><a href="">中央环境保护督查“回头看”</a></li>
+						<li><a href="">职业资格专项清理</a></li>
+						<li><a href="">扶贫资金政策</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="" target="_blank">电子书</a>
+				</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!--弹出对话框-->
+		<div class="theme-popover" style="width:800px;height:auto;height:400px;overflow:auto;">
+		     <div class="theme-poptit">
+		        	<a href="javascript:;" title="关闭" class="close">×</a>
+		        	<h3>便民咨询</h3>
+		    </div>
+		    <div class="theme-popbod dform" style="height:auto;">
+			<table width="95%" border="0" cellspacing="0" cellpadding="0" class="tb">
+				<tbody>
+				  	<tr>
+					    <td width="16%" align="right"><strong>咨询标题：</strong></td>
+					    <td width="50%"></td>
+					    <td width="16%" align="right"><strong>咨询日期：</strong></td>
+					    <td width="25%"></td>
+				  	</tr>
+				 	<tr>
+					    <td align="right"><strong>咨询内容：</strong></td>
+					    <td colspan="3"></td>
+				    </tr>
+				    <tr>
+					    <td align="right"><strong>转办意见：</strong></td>
+					    <td colspan="3" class="yf"></td>
+				    </tr>
+				    <tr>
+					    <td align="right"><strong>办理部门：</strong></td>
+					    <td></td>
+					    <td align="right"><strong>办结期限：</strong></td>
+					    <td></td>
+					</tr>
+					<tr>
+					    <td align="right"><strong>办理状态：</strong></td>
+					    <td></td>
+					    <td align="right"><strong>办结时间：</strong></td>
+					    <td></td>
+					</tr>
+					<tr>
+				    	<td align="right"><strong>办理结果：</strong></td>
+				    	<td colspan="3" class="jg"></td>
+				    </tr>
+				</tbody>
+		</table>
+
+		     </div>
+		</div>
+		<!-- 弹窗end-->
+		<div class="news"> 
+			<!--首页轮播图--> 
+			<div class="pic"> 
+				<div class="cover"> 
+					<div class="title-font" style="width:265px;">
+						<a href="" style="color:#fff;">艺术村落</a>
+					</div> 
+					<div class="imglist" style="width:300px;float:right"> 
+						<a href="" title="有意见，“码”上说！国务院办公厅开通“国家政务服务投诉与建议”小程序">
+							<img src="images/20181019015741599.jpg" width="87" height="50" alt="" class="" />
+							<span style="display:none;"></span>
+						</a> 
+						<a href="" title="艺术村落">
+							<img src="images/20180804110106811.jpg" width="87" height="50" alt="" class="now" />
+							<span style="display:none;">艺术村落</span>
+						</a> 
+						<a href="" title="大气防治">
+							<img src="images/20160113103059292.jpg" width="87" height="50" alt="" class="" />
+							<span style="display:none;">扩大绿化面积、整治燃煤锅炉、淘汰落后产能……只为倾力保有...</span>
+						</a> 
+					</div> 
+				</div> 
+				<div class="bigimg">
+					<a href=""><img src="images/20180804110106811.jpg" width="600" height="350" alt="" /></a>
+				</div> 
+			</div>
+
+			<div class="list"> 
+			<!--政府要闻--> 
+			<div class="newslist"> 
+				<div class="hot"> 
+					<span class="date">12-14</span> 
+					<div class="nr"> 
+						<h2><a href="">付顺义、张敏带队入户走访村...</a></h2> 
+						<p>12月12日晚，区委副书记付顺义、副区长张敏带领区住建局、热力公司、戴河镇、大督查办相...</p> 
+					</div> 
+				</div> 
+				<ul> 
+					<li><span class="date">12-14</span><a href=""> 赵溪召开北戴河互联网医院建设工作推进会</a></li> 
+					<li><span class="date">12-14</span><a href="">区委宣传部、区经普办联合召开区经普宣传动员会</a></li> 
+					<li><span class="date">12-13</span><a href="">庞建稳、张敏召开供热工作群众座谈会</a></li> 
+					<li><span class="date">12-13</span><a href="">区委组织部举办第一期村干部乡村振兴主题沙龙活动</a></li> 
+					<li><span class="date">12-13</span><a href="">戴河镇召开安全生产培训会</a></li> 
+					<li><span class="date">12-12</span><a href="">陈秋华带队视察城市区供暖工作</a></li> 
+				</ul> 
+				</div> 
+				<!--通知公告--> 
+				<div class="newslist" style="display:none"> 
+					<div class="hot"> 
+						<span class="date">12-11</span> 
+						<div class="nr"> 
+							<h2><a href="">北戴河区社保基金欺诈举报电...</a></h2> 
+							<p></p> 
+						</div> 
+					</div> 
+					<ul> 
+						<li><span class="date">12-06</span><a href=""> 关于印发《秦皇岛市重污染天气应急减排实施方案...</a></li> 
+						<li><span class="date">12-05</span><a href="">北戴河区人力资源和社会保障局2018年职业技能培...</a></li> 
+						<li><span class="date">11-26</span><a href="">北戴河区2018年职业技能培训计划公示</a></li> 
+						<li><span class="date">11-15</span><a href="">秦皇岛市重点区域第九轮大气强化督查交办问题整...</a></li> 
+						<li><span class="date">11-15</span><a href="">秦皇岛市重点区域第九轮大气强化督查交办问题汇总表</a></li> 
+						<li><span class="date">11-15</span><a href="">秦皇岛市重点区域第六轮大气强化督查交办问题整...</a></li> 
+					</ul> 
+				</div> 
+				<!--视频新闻--> 
+				<div class="newslist" style="display:none"> 
+					<div class="hot1"> 
+						<span class="date">12-13</span> 
+						<div class="nr"> 
+							<h2><a href="">北戴河新闻 2018-12-13</a></h2> 
+						</div> 
+					</div> 
+					<ul> 
+						<li><span class="date">12-12</span><a href=""> 北戴河新闻 2018-12-12</a></li> 
+						<li><span class="date">12-11</span><a href="">北戴河新闻 2018-12-11</a></li> 
+						<li><span class="date">12-10</span><a href="">北戴河新闻 2018-12-10</a></li> 
+						<li><span class="date">12-08</span><a href="">北戴河新闻 2018-12-8</a></li> 
+						<li><span class="date">12-07</span><a href="">北戴河新闻 2018-12-7</a></li> 
+						<li><span class="date">12-06</span><a href="">北戴河新闻 2018-12-6</a></li> 
+					</ul> 
+				</div> 
+				<div class="tab"> 
+					<ul> 
+						<li class="tabnow" id="t0"><a href="">动态要闻</a></li> 
+						<li id="t1"><a href="">通知公告</a></li> 
+						<li id="t2"><a href="">视频新闻</a></li> 
+					</ul> 
+				</div> 
+			</div>
+		</div>
+		
+		<div class="news">
+		    <div class="bml">
+		        <ul class="bmtab">
+		            <li id="n0" class="choose"><a href="">电子公文</a></li>
+		            <li class="" id="n1"><a href="">便民咨询</a></li>
+		        </ul>
+		        <!--政务公开区域（展示政府文件内容）-->
+		        <ul class="linkpic" style="display: block;">
+		            <li>
+		                <a href=""> 关于印发《2018-2019年采暖季工业企业错峰生产实施方案》的通知</a>
+		                <span>11-22</span>
+		            </li>
+		            <li>
+		                <a href=""> 关于衔接落实国务院取消一批行政许可等事项工作的通知</a>
+		                <span>09-14</span>
+		            </li>
+		            <li><a href=""> 关于成立北戴河区人民政府教育督导委员会的通知</a>
+		                <span>08-10</span>
+		            </li>
+		            <li><a href=""> 关于印发《北戴河区2018年政务公开工作实施方案》的通知</a>
+		                <span>07-25</span>
+		            </li>
+		            <li><a href=""> 关于在全区范围内进行飞机喷药防治林木病虫害的通告</a>
+		                <span>06-07</span>
+		            </li>
+		        </ul>
+		         <!--便民咨询区域-->
+		        <ul class="linkpic conlink" style="display: none;">
+		            <table width="600px" border="0" cellspacing="0" cellpadding="0" class="bm">
+		                <tbody>
+		                    <tr>
+		                        <th width="15%" height="28" align="center">日期</th>
+		                        <th width="71%">标题</th>
+		                        <th width="14%">状态
+		                        <!--存储便民咨询地址-->
+		                        <input type="hidden" id="zxUrl" value="">
+		                        </th>
+		                    </tr>
+		                    <tr class="">
+		                        <td height="23" align="center">2018-12-11</td>
+		                        <td align="center"><a href="javascript:;" class="mark" id="b_118"> 呼吁政府部门督促供暖公司尽快解决戴河新城保利海公园10月底新入住的93-96栋暖气冰...</a></td>
+		                        <td align="center">转办中</td>
+		                    </tr>
+		                    <tr class="swi">
+		                        <td height="23" align="center">2018-12-10</td>
+		                        <td align="center">
+		                            <a href="javascript:;" class="mark" id="b_116"> 我们不欠暖气费。我们的温度不达标。我们的外网管道回路不畅通(诺宝公司的回复“诺...</a>
+		                        </td>
+		                        <td align="center">已回复</td>
+		                    </tr>
+		                    <tr class="">
+		                        <td height="23" align="center">2018-11-29</td>
+		                        <td align="center">
+		                            <a href="javascript:;" class="mark" id="b_115"> 要求挪宝公司恢复我们单元门口因改造供热管道破坏的地面砖</a>
+		                        </td>
+		                        <td align="center">已回复</td>
+		                    </tr>
+		                    <tr class="swi">
+		                        <td height="23" align="center">2018-10-25</td>
+		                        <td align="center">
+		                            <a href="javascript:;" class="mark" id="b_114"> 为什么戴河镇 杨各庄新区2区  1-5层可以办理房本 6楼不给办理呢</a>
+		                        </td>
+		                        <td align="center">已回复</td>
+		                    </tr>
+		                </tbody>
+		            </table>
+		        </ul>
+		    </div>
+
+		    <div class="icon">
+		        <div class="icons">
+		            <!--信息公开平台-->
+		            <a href=""><img src="images/pic1.gif" width="110" height="92" alt=""></a>
+		            <a href=""><img src="images/qhdwypd.gif" width="110" height="92" alt=""></a>
+		            <a href=""><img src="images/pic3.gif" width="110" height="92" alt=""></a>
+		            <a href=""><img src="images/xzzfgs1.gif" width="110" height="92" alt=""></a>
+		        </div>
+		        <div class="icons">
+		            <a href=""><img src="images/myzj.gif" width="110" height="92" alt=""></a>
+		            <a href=""><img src="images/hbzwfww.jpg" width="110" height="92" alt=""></a>
+		            <a href=""><img src="images/wwddctjy.gif" width="110" height="92" alt=""></a>
+		            <a href=""><img src="images/wsxf.jpg" width="110" height="92" alt=""></a>
+		            </div>
+		    </div>
+		</div>
+
+	</div>
+	<div class="footer">
+	<div class="copynr">
+		<div class="icp">
+			<span id="_idConac">
+				<a href="##">
+					<img src="images/red.png" data-bd-imgshare-binded="1">
+				</a>
+			</span>
+			<span id="_idConac"></span>
+		</div>
+		<div class="copy">中共北戴河区委、北戴河区人民政府主办、北戴河区信息化办公室承办
+            <br>Copyright@2016,All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="##">网站地图</a>
+            <br>冀ICP备14004499号-1&nbsp;&nbsp;&nbsp;&nbsp;网站标识码：1303040001
+            <br>电子邮箱：bdhxxh@163.com&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="##">
+            	<img src="images/ghs.png">
+            	冀公网安备 13030402000104号
+            </a>
+            <br><a>360网站安全检测平台</a>
+		</div>
+		<div class="er">
+			<img src="images/er.png" width="92" height="92" alt="">
+		</div>
+		<span id="_span_jiucuo">
+			<img style="margin: 0;border: 0;cursor: pointer;" src="images/jiucuo.png">
+		</span>
+	</div>
+</div>
+</body>
+</html>
