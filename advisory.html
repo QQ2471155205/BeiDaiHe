@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/advisory.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+	<div class="mybody" style="height: auto;">
+		<div class="top">
+			<div class="ss">
+				<form>
+					<input type="hidden" name="m" value="search" />
+				    <input type="hidden" name="c" value="index" />
+				    <input type="hidden" name="a" value="init" />
+				    <input type="hidden" name="typeid" value="1" id="typeid" />
+				    <input type="hidden" name="siteid" value="1" id="siteid" />
+				    <div class="inss">
+				    	<select name="where">
+				    		<option value="all">全部</option>
+				            <option value="title">标题</option>
+				            <option value="keywords">关键字</option>
+				    	</select>
+				    </div>
+				    <div class="inss">
+				    	<input type="text" name="q" id="q" placeholder="请输入关键字" />
+				    </div>
+				    <div class="inss">
+				    	<input type="submit" class="ssbtn" id="search" value=" " />
+				    </div>
+				</form>
+			</div>
+			<ul class="nav">
+				<li class="now">
+					<a href="index.html">首页</a>
+				</li>
+				<li>
+					信息公开
+					<ul style="left: 524.5px;">
+						<li><a href="">组织机构</a></li> 
+						<li><a href="">政策法规</a></li> 
+						<li><a href="">应急管理</a></li> 
+						<li><a href="">发展规划</a></li> 
+						<li><a href="">人事任免</a></li> 
+						<li><a href="">政策解读</a></li> 
+						<li><a href="">电子公文</a></li> 
+						<li><a href="">招商引资</a></li> 
+						<li><a href="">行政审批制度改革</a></li> 
+					</ul>
+				</li> 
+				<li>
+					<a href="" style="height:auto;">印象北戴河</a>
+					<ul style="left: 669.5px;">
+						<li><a href="">基本概况</a></li>
+						<li><a href="">生态之城</a></li>
+						<li><a href="">文化之城</a></li>
+						<li><a href="">休闲之城</a></li>
+						<li><a href="">运动之城</a></li>
+						<li><a href="">发展之城</a></li>
+						<li><a href="">历史之城</a></li>
+						<li><a href="">文明之城</a></li>
+					</ul>
+				</li>
+				<li>政民互动
+					<ul style="left: 994.5px;">
+						<li><a href="">领导信箱</a></li>
+						<li><a href="">民意征集</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="" style="height:auto;">网上办事</a>
+					<ul style="left: 1229.5px;">
+					</ul>
+				</li>
+				<li>专题专栏
+					<ul style="left: 1059.5px;">
+						<li><a href="">星火普法</a></li>
+						<li><a href="">财政预决算</a></li>
+						<li><a href="">十九大精神解读</a></li>
+						<li><a href="">中央环境保护督查“回头看”</a></li>
+						<li><a href="">职业资格专项清理</a></li>
+						<li><a href="">扶贫资金政策</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="" target="_blank">电子书</a>
+				</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="bread">
+			<img src="http://www.beidaihe.gov.cn/statics/images/beidaihe/icon.png" width="16" height="16" alt="" align="absmiddle">&nbsp;
+			<a href="">首页</a> &gt; 政民互动  &gt;  
+			<a href="">领导信箱</a>
+		</div>
+		<div class="right">
+	<h1>便民咨询<span>INQUIRIES AND COMPLAINTS</span></h1>
+	<p class="bbstab">
+		<a href="##" class="now" id="b_0">我要咨询</a>
+		<a href="#" id="b_1" class="">最新咨询</a>
+        <a href="#" id="b_2" class="">逾期未办</a>
+        <a href="#" id="b_3" class="">办理查询</a>
+	</p>
+	<!------------------------我要咨询------------------------>
+	<div class="bbs" style="display: block;">
+		<form name="myform" id="infor">
+			<table width="100%" border="0" cellspacing="1" cellpadding="3" class="errorbbs">
+				<tbody>
+					<tr>
+						<td height="40" align="right">真实姓名：</td>
+						<td width="215" height="43" align="left">
+							<input type="text" name="realname" id="realname" size="30">
+							<span class="red">*</span>
+						</td>
+						<td width="111" align="right">身份证号：</td>
+						<td width="341" align="left">
+							<input type="text" name="idnum" id="idnum" size="30">
+							<span class="red">*</span>
+						</td>
+					</tr>
+					<tr>
+						<td height="40" align="right">联系电话：</td>
+						<td>
+							<input type="text" name="phonenum" id="phonenum" size="30">
+						</td>
+						<td align="right">Email：</td>
+						<td>
+							<input type="text" name="email" id="email" size="30">
+						</td>
+					</tr>
+					<tr>
+						<td height="40" align="right">咨询标题：</td>
+						<td colspan="3">
+							<input type="text" name="title" id="title" size="80">
+							<span class="red">*</span>
+						</td>
+					</tr>
+					<tr>
+						<td width="112" height="103" align="right">咨询内容：</td>
+						<td colspan="3">
+						<textarea name="consultcontent" cols="95" rows="5" id="consultcontent"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td height="40" align="right">验证码：</td>
+						<td colspan="3">
+							<input type="text" name="code" id="textfield" size="10">
+							<span style="margin-top: 10px;">
+								<img id="code_img" src="images/untitled.png" style="margin-bottom: -15px;">
+								<span class="STYLE2">(请先点击左侧图片再输入验证码)</span>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td height="56" align="right">&nbsp;</td>
+						<td colspan="3">
+							<input type="button" name="submit" id="submit" value="提交留言" class="sub">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+	
+	<!---最新咨询--->
+	<div class="bbs" style="display: none;">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bm">
+			<th width="10%" height="36">咨询时间</th>
+			<th width="72%">咨询标题</th>
+			<th width="10%">办理部门</th>
+			<th width="8">办理状态</th>
+			<tr class="">
+				<td height="30" align="center">2018-12-11</td>
+				<td><a class="mark" id="b_118">
+					呼吁政府部门督促供暖公司尽快解决戴河新城保利海公园10月底新入住的93-96栋暖气冰凉根本不达标的民生问题！
+				</a></td>
+				<td align="center"></td>
+				<td align="center">转办</td>
+			</tr>
+			<tr class="swi">
+				<td height="30" align="center">2018-12-10</td>
+				<td><a class="mark" id="b_116">
+					我们不欠暖气费。我们的温度不达标。我们的外网管道回路不畅通(诺宝公司的回复"诺宝无能为力")
+				</a></td>
+				<td align="center"></td>
+				<td align="center">已回复</td>
+			</tr>
+						<tr class="">
+				<td height="30" align="center">2018-11-29</td>
+				<td><a class="mark" id="b_115">
+					要求挪宝公司恢复我们单元门口因改造供热管道破坏的地面砖
+				</a></td>
+				<td align="center"></td>
+				<td align="center">已回复</td>
+			</tr>
+			<tr class="swi">
+				<td height="30" align="center">2018-11-29</td>
+				<td><a class="mark" id="b_114">
+					为什么戴河镇 杨各庄新区2区  1-5层可以办理房本 6楼不给办理呢
+				</a></td>
+				<td align="center"></td>
+				<td align="center">已回复</td>
+			</tr>
+			<tr class="">
+				<td height="30" align="center">2018-10-19</td>
+				<td><a class="mark" id="b_113">
+					慢性病卡办理流程
+				</a></td>
+				<td align="center">人劳局</td>
+				<td align="center">已回复</td>
+			</tr>
+			<tr class="swi">
+				<td height="30" align="center">2018-10-02</td>
+				<td><a class="mark" id="b_112">
+					咨询本地2017年国民经济和社会发展统计公报
+				</a></td>
+				<td align="center"></td>
+				<td align="center">已回复</td>
+			</tr>
+			<tr class="">
+				<td height="30" align="center">2018-09-05</td>
+				<td><a class="mark" id="b_110">
+					想咨询一下北戴河区牛头崖镇南甸子新村的返迁房什么时候能下来产权
+				</a></td>
+				<td align="center"></td>
+				<td align="center">已回复</td>
+			</tr>
+			<tr class="swi">
+				<td height="30" align="center">2018-08-28</td>
+				<td><a class="mark" id="b_109">赤土山大龄青年房</a></td>
+				<td align="center">民情办</td>
+				<td align="center">已回复</td>
+			</tr>
+		</table>
+		<ul class="page">
+			<li>
+				<a class="a1">上一页</a>
+			</li>
+			<li>
+				<a class="now">1</a>
+			</li>
+			<li>
+				<a>2</a>
+			</li>
+			<li>
+				<a>3</a>
+			</li>
+			<li>
+				<a>4</a>
+			</li>
+			<li>
+				<a>..</a>
+			</li>
+			<li>
+				<a>12</a>
+			</li>
+			<li>
+				<a class="a1">下一页</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<!-----------逾期未办------------>
+	<div class="bbs" style="display: none;">
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="bm"></table>
+	</div>
+
+	<!------------办理查询-------------->
+	<div class="bbs" style="display: none;">
+		<form>
+			<table width="100%" border="0" cellspacing="1" cellpadding="3" class="errorbbs" style="display: block;">
+				<tr>
+					<td width="112" height="40" align="right">真实姓名：</td>
+					<td width="215" height="43" align="left"><input type="text" name="c_realname" id="c_realname" size="30"></td>
+					<td width="111" align="right">身份证号：</td>
+					<td width="341" align="left"><input type="text" name="c_idnum" id="c_idnum" size="30"></td>
+				</tr>
+				<tr>
+					<td height="40" align="right">查询关键字：</td>
+					<td colspan="3"><input type="text" name="c_keywords" id="c_keywords" size="80"></td>
+				</tr>
+				<tr>
+					<td height="56" align="right">&nbsp;</td>
+					<td colspan="3"><input type="submit" name="submit" value="查 询" class="sub" id="c_review"></td>
+				</tr>
+			</table>
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" class="bm" id="c_review" style="display: none;">
+					<tr>
+						<th width="10%" height="36" scope="col">咨询时间</th>
+						<th width="72%" scope="col">咨询标题</th>
+						<th width="10%" scope="col">办理部门</th>
+						<th width="8%" scope="col">办理状态</th>
+					</tr>
+				</table>
+		</form>
+	</div>
+</div>
+
+	</div>
+</div>
+<div class="footer">
+	<div class="copynr">
+		<div class="icp">
+			<span id="_idConac">
+				<a href="##">
+					<img src="images/red.png" data-bd-imgshare-binded="1">
+				</a>
+			</span>
+			<span id="_idConac"></span>
+		</div>
+		<div class="copy">中共北戴河区委、北戴河区人民政府主办、北戴河区信息化办公室承办
+            <br>Copyright@2016,All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="##">网站地图</a>
+            <br>冀ICP备14004499号-1&nbsp;&nbsp;&nbsp;&nbsp;网站标识码：1303040001
+            <br>电子邮箱：bdhxxh@163.com&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="##">
+            	<img src="images/ghs.png">
+            	冀公网安备 13030402000104号
+            </a>
+            <br><a>360网站安全检测平台</a>
+		</div>
+		<div class="er">
+			<img src="images/er.png" width="92" height="92" alt="">
+		</div>
+		<span id="_span_jiucuo">
+			<img style="margin: 0;border: 0;cursor: pointer;" src="images/jiucuo.png">
+		</span>
+	</div>
+</div>
+</body>
+</html>

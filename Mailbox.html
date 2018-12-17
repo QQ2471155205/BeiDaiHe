@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/Mailbox.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+	<div class="mybody" style="height: auto;">
+		<div class="top">
+			<div class="ss">
+				<form>
+					<input type="hidden" name="m" value="search" />
+				    <input type="hidden" name="c" value="index" />
+				    <input type="hidden" name="a" value="init" />
+				    <input type="hidden" name="typeid" value="1" id="typeid" />
+				    <input type="hidden" name="siteid" value="1" id="siteid" />
+				    <div class="inss">
+				    	<select name="where">
+				    		<option value="all">全部</option>
+				            <option value="title">标题</option>
+				            <option value="keywords">关键字</option>
+				    	</select>
+				    </div>
+				    <div class="inss">
+				    	<input type="text" name="q" id="q" placeholder="请输入关键字" />
+				    </div>
+				    <div class="inss">
+				    	<input type="submit" class="ssbtn" id="search" value=" " />
+				    </div>
+				</form>
+			</div>
+			<ul class="nav">
+				<li class="now">
+					<a href="index.html">首页</a>
+				</li>
+				<li>
+					信息公开
+					<ul style="left: 524.5px;">
+						<li><a href="">组织机构</a></li> 
+						<li><a href="">政策法规</a></li> 
+						<li><a href="">应急管理</a></li> 
+						<li><a href="">发展规划</a></li> 
+						<li><a href="">人事任免</a></li> 
+						<li><a href="">政策解读</a></li> 
+						<li><a href="">电子公文</a></li> 
+						<li><a href="">招商引资</a></li> 
+						<li><a href="">行政审批制度改革</a></li> 
+					</ul>
+				</li> 
+				<li>
+					<a href="" style="height:auto;">印象北戴河</a>
+					<ul style="left: 669.5px;">
+						<li><a href="">基本概况</a></li>
+						<li><a href="">生态之城</a></li>
+						<li><a href="">文化之城</a></li>
+						<li><a href="">休闲之城</a></li>
+						<li><a href="">运动之城</a></li>
+						<li><a href="">发展之城</a></li>
+						<li><a href="">历史之城</a></li>
+						<li><a href="">文明之城</a></li>
+					</ul>
+				</li>
+				<li>政民互动
+					<ul style="left: 994.5px;">
+						<li><a href="">领导信箱</a></li>
+						<li><a href="">民意征集</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="" style="height:auto;">网上办事</a>
+					<ul style="left: 1229.5px;">
+					</ul>
+				</li>
+				<li>专题专栏
+					<ul style="left: 1059.5px;">
+						<li><a href="">星火普法</a></li>
+						<li><a href="">财政预决算</a></li>
+						<li><a href="">十九大精神解读</a></li>
+						<li><a href="">中央环境保护督查“回头看”</a></li>
+						<li><a href="">职业资格专项清理</a></li>
+						<li><a href="">扶贫资金政策</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="" target="_blank">电子书</a>
+				</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="bread">
+			<img src="http://www.beidaihe.gov.cn/statics/images/beidaihe/icon.png" width="16" height="16" alt="" align="absmiddle">&nbsp;
+			<a href="">首页</a> &gt; 政民互动  &gt;  
+			<a href="">领导信箱</a>
+		</div>
+		<div class="right">
+	<h1>领导信箱<span> LEADER EMAIL</span></h1>
+	<p class="bbstab">
+            <a href="#" class="now" id="b0">我要写信</a>
+            <a href="#" id="b1" class="">查看回复</a>
+    </p>
+    <div class="bbs">
+		<form action="" method="post" name="myform">
+		<table width="100%" border="0" cellspacing="1" cellpadding="3" class="errorbbs">
+		<tbody>
+			<tr>
+				<td height="40" align="right">真实姓名：</td>
+				<td width="215" height="43" align="left">
+					<input type="text" name="realname" id="realname" size="30">
+					<span class="red">*</span>
+				</td>
+				<td width="111" align="right">身份证号：</td>
+				<td width="341" align="left">
+					<input type="text" name="idnum" id="idnum" size="30">
+					<span class="red">*</span>
+				</td>
+			</tr>
+			<tr>
+			<td height="40" align="right">联系电话：</td>
+			<td>
+				<input type="text" name="phonenum" id="phonenum" size="30">
+			</td>
+			<td align="right">Email：</td>
+			<td>
+				<input type="text" name="email" id="email" size="30">
+			</td>
+			</tr>
+			<tr>
+				<td width="112" height="103" align="right">咨询内容：</td>
+				<td colspan="3">
+					<textarea name="message" cols="75" rows="5" id="message"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td height="40" align="right">验证码：</td>
+				<td colspan="3">
+					<input type="text" name="code" id="codefield" size="10">
+					<span style="margin-top: 10px;">
+						<img id="code_img" src="images/api.png" style="margin-bottom: -15px;">
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td height="56" align="right">&nbsp;</td>
+				<td colspan="3">
+					<input type="submit" name="submit" id="submit" value="提交留言" class="sub">
+				</td>
+			</tr>
+			
+		</tbody>
+</table>       
+</form>
+
+
+										<!-------最新咨询-------->
+				<form id="mail_review">
+					<table width="100%" border="0" cellpadding="1" cellpadding="3" class="errorbbs" style="display: none;">
+						<tbody>
+							<tr>
+								<td width="118" height="50" align="right">真实姓名：</td>
+								<td width="184" height="50" align="left">
+									<input type="text" id="c_realname" size="30">
+								</td>
+								<td width="95" align="right">身份证号:</td>
+								<td width="382" align="left">
+									<input type="text" id="c_idnum" size="30">
+								</td>
+							</tr>
+							<tr>
+								<td height="54" align="right">&nbsp;</td>
+								<td colspan="3">
+									<input type="button" id="c_review" value="查看回复" class="check">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>										
+			</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="copynr">
+		<div class="icp">
+			<span id="_idConac">
+				<a href="##">
+					<img src="images/red.png" data-bd-imgshare-binded="1">
+				</a>
+			</span>
+			<span id="_idConac"></span>
+		</div>
+		<div class="copy">中共北戴河区委、北戴河区人民政府主办、北戴河区信息化办公室承办
+            <br>Copyright@2016,All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="##">网站地图</a>
+            <br>冀ICP备14004499号-1&nbsp;&nbsp;&nbsp;&nbsp;网站标识码：1303040001
+            <br>电子邮箱：bdhxxh@163.com&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="##">
+            	<img src="images/ghs.png">
+            	冀公网安备 13030402000104号
+            </a>
+            <br><a>360网站安全检测平台</a>
+		</div>
+		<div class="er">
+			<img src="images/er.png" width="92" height="92" alt="">
+		</div>
+		<span id="_span_jiucuo">
+			<img style="margin: 0;border: 0;cursor: pointer;" src="images/jiucuo.png">
+		</span>
+	</div>
+</div>
+</body>
+</html>
