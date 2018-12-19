@@ -68,7 +68,7 @@ var bannerlist = [
 	})
 	/*弹窗打开*/
 	$(".conlink a").click(function() {
-		$(".theme-popover:eq("+ index +")").show(250);
+		$(".theme-popover").show(250);
 	})
 	/*弹窗关闭*/
 	$(".close").click(function() {
