@@ -67,6 +67,7 @@
 					<ul style="left: 994.5px;">
 						<li><a href="">领导信箱</a></li>
 						<li><a href="">民意征集</a></li>
+						<li><a href="">便民咨询</a></li>
 					</ul>
 				</li>
 				<li>
@@ -94,7 +95,7 @@
 		<!--弹出对话框-->
 		<div class="theme-popover" style="width:800px;height:auto;height:400px;overflow:auto;">
 		     <div class="theme-poptit">
-		        	<a href="javascript:;" title="关闭" class="close">×</a>
+		        	<a title="关闭" class="close">×</a>
 		        	<h3>便民咨询</h3>
 		    </div>
 		    <div class="theme-popbod dform" style="height:auto;">
@@ -138,34 +139,39 @@
 		<!-- 弹窗end-->
 		<div class="news"> 
 			<!--首页轮播图--> 
-			<div class="pic"> 
-				<div class="cover"> 
-					<div class="title-font" style="width:265px;">
-						<a href="" style="color:#fff;">艺术村落</a>
-					</div> 
-					<div class="imglist" style="width:300px;float:right"> 
-						<a href="" title="有意见，“码”上说！国务院办公厅开通“国家政务服务投诉与建议”小程序">
-							<img src="images/20181019015741599.jpg" width="87" height="50" alt="" class="" />
-							<span style="display:none;"></span>
-						</a> 
-						<a href="" title="艺术村落">
-							<img src="images/20180804110106811.jpg" width="87" height="50" alt="" class="now" />
-							<span style="display:none;">艺术村落</span>
-						</a> 
-						<a href="" title="大气防治">
-							<img src="images/20160113103059292.jpg" width="87" height="50" alt="" class="" />
-							<span style="display:none;">扩大绿化面积、整治燃煤锅炉、淘汰落后产能……只为倾力保有...</span>
-						</a> 
-					</div> 
-				</div> 
-				<div class="bigimg">
-					<a href=""><img src="images/20180804110106811.jpg" width="600" height="350" alt="" /></a>
-				</div> 
+			<div class="pic">
+		<div class="cover">
+			<div class="title-font" style="width: 265px;">
+				<a href="##" style="color: #fff;text-decoration:none;" id="title">
+					
+				</a>
 			</div>
+			<div class="imglist" style="width: 300px;float: right;" id="imglist">
+				<a href="##">
+					<img src="http://www.beidaihe.gov.cn/uploadfile/2018/1019/20181019015741599.jpg" 
+					width="87px" height="50px" />
+				</a>
+					<a href="##">
+					<img src="http://www.beidaihe.gov.cn/uploadfile/2018/0804/20180804110106811.jpg " 
+					width="87px" height="50px" />
+				</a>
+					<a href="##">
+					<img src="http://www.beidaihe.gov.cn/uploadfile/2016/0113/20160113103059292.jpg" 
+					width="87px" height="50px" />
+				</a>
+			</div>
+		</div>
+		<div class="bigimg">
+			<a href="##" id="biglink">
+				<img src="http://www.beidaihe.gov.cn/uploadfile/2018/1019/20181019015741599.jpg" width="600px"
+				height="350px" id="bigimg"/>
+			</a>
+		</div>
+	</div>
 
 			<div class="list"> 
 			<!--政府要闻--> 
-			<div class="newslist"> 
+			<div class="newslist" style="display:block;"> 
 				<div class="hot"> 
 					<span class="date">12-14</span> 
 					<div class="nr"> 
@@ -209,19 +215,19 @@
 						</div> 
 					</div> 
 					<ul> 
-						<li><span class="date">12-12</span><a href=""> 北戴河新闻 2018-12-12</a></li> 
-						<li><span class="date">12-11</span><a href="">北戴河新闻 2018-12-11</a></li> 
-						<li><span class="date">12-10</span><a href="">北戴河新闻 2018-12-10</a></li> 
-						<li><span class="date">12-08</span><a href="">北戴河新闻 2018-12-8</a></li> 
-						<li><span class="date">12-07</span><a href="">北戴河新闻 2018-12-7</a></li> 
-						<li><span class="date">12-06</span><a href="">北戴河新闻 2018-12-6</a></li> 
+						<li><span class="date">12-12</span><a href="newvideo.html" target="view_window"> 北戴河新闻 2018-12-12</a></li> 
+						<li><span class="date">12-11</span><a href="newvideo.html" target="view_window">北戴河新闻 2018-12-11</a></li> 
+						<li><span class="date">12-10</span><a href="newvideo.html" target="view_window">北戴河新闻 2018-12-10</a></li> 
+						<li><span class="date">12-08</span><a href="newvideo.html" target="view_window">北戴河新闻 2018-12-8</a></li> 
+						<li><span class="date">12-07</span><a href="newvideo.html" target="view_window">北戴河新闻 2018-12-7</a></li> 
+						<li><span class="date">12-06</span><a href="newvideo.html" target="view_window">北戴河新闻 2018-12-6</a></li> 
 					</ul> 
 				</div> 
 				<div class="tab"> 
 					<ul> 
 						<li class="tabnow" id="t0"><a href="">动态要闻</a></li> 
-						<li id="t1"><a href="">通知公告</a></li> 
-						<li id="t2"><a href="">视频新闻</a></li> 
+						<li class="" id="t1"><a href="">通知公告</a></li> 
+						<li class="" id="t2"><a href="">视频新闻</a></li> 
 					</ul> 
 				</div> 
 			</div>
@@ -261,33 +267,32 @@
 		                        <th width="15%" height="28" align="center">日期</th>
 		                        <th width="71%">标题</th>
 		                        <th width="14%">状态
-		                        <!--存储便民咨询地址-->
 		                        <input type="hidden" id="zxUrl" value="">
 		                        </th>
 		                    </tr>
 		                    <tr class="">
 		                        <td height="23" align="center">2018-12-11</td>
-		                        <td align="center"><a href="javascript:;" class="mark" id="b_118"> 呼吁政府部门督促供暖公司尽快解决戴河新城保利海公园10月底新入住的93-96栋暖气冰...</a></td>
+		                        <td align="center"><a class="mark" id="b_118"> 呼吁政府部门督促供暖公司尽快解决戴河新城保利海公园10月底新入住的93-96栋暖气冰...</a></td>
 		                        <td align="center">转办中</td>
 		                    </tr>
 		                    <tr class="swi">
 		                        <td height="23" align="center">2018-12-10</td>
 		                        <td align="center">
-		                            <a href="javascript:;" class="mark" id="b_116"> 我们不欠暖气费。我们的温度不达标。我们的外网管道回路不畅通(诺宝公司的回复“诺...</a>
+		                            <a class="mark" id="b_116"> 我们不欠暖气费。我们的温度不达标。我们的外网管道回路不畅通(诺宝公司的回复“诺...</a>
 		                        </td>
 		                        <td align="center">已回复</td>
 		                    </tr>
 		                    <tr class="">
 		                        <td height="23" align="center">2018-11-29</td>
 		                        <td align="center">
-		                            <a href="javascript:;" class="mark" id="b_115"> 要求挪宝公司恢复我们单元门口因改造供热管道破坏的地面砖</a>
+		                            <a class="mark" id="b_115"> 要求挪宝公司恢复我们单元门口因改造供热管道破坏的地面砖</a>
 		                        </td>
 		                        <td align="center">已回复</td>
 		                    </tr>
 		                    <tr class="swi">
 		                        <td height="23" align="center">2018-10-25</td>
 		                        <td align="center">
-		                            <a href="javascript:;" class="mark" id="b_114"> 为什么戴河镇 杨各庄新区2区  1-5层可以办理房本 6楼不给办理呢</a>
+		                            <a class="mark" id="b_114"> 为什么戴河镇 杨各庄新区2区  1-5层可以办理房本 6楼不给办理呢</a>
 		                        </td>
 		                        <td align="center">已回复</td>
 		                    </tr>
@@ -344,4 +349,6 @@
 	</div>
 </div>
 </body>
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 </html>

@@ -104,7 +104,7 @@
             <a href="#" id="b1" class="">查看回复</a>
     </p>
     <div class="bbs">
-		<form action="" method="post" name="myform">
+		<form action="" method="post" name="myform" style="display: block;">
 		<table width="100%" border="0" cellspacing="1" cellpadding="3" class="errorbbs">
 		<tbody>
 			<tr>
@@ -157,8 +157,8 @@
 
 
 										<!-------最新咨询-------->
-				<form id="mail_review">
-					<table width="100%" border="0" cellpadding="1" cellpadding="3" class="errorbbs" style="display: none;">
+				<form id="mail_review" style="display: none;">
+					<table width="100%" border="0" cellpadding="1" cellpadding="3" class="errorbbs">
 						<tbody>
 							<tr>
 								<td width="118" height="50" align="right">真实姓名：</td>
@@ -212,4 +212,14 @@
 	</div>
 </div>
 </body>
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+	$(".bbstab a").mouseover(function() {
+		$(".now").removeClass("now");
+		$(this).addClass("now");
+		var index = $(".bbstab a").index($(this));
+		$(".bbs form").css("display", "none");
+		$(".bbs form:eq("+ index +")").css("display", "block");
+	})
+</script>
 </html>

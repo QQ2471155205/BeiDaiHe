@@ -46,7 +46,13 @@
     width: 285px;
     margin-top: 5px;
 }
-
+.imglist img {
+    border: 3px solid #8b8c8c;
+    margin-right: -2px;
+}
+.imglist img:hover, .imglist .now {
+    border: 3px solid #fff;
+}
 .bigimg {
     position: absolute;
     top: 0;
@@ -120,6 +126,10 @@
     height: 28px;
     padding-top: 10px;
 }
+.tab ul li:hover, .tab ul li.tabnow {
+    background: url(../images/tab.png) no-repeat;
+    cursor: pointer;
+}
 .tab {
     font-size: 16px;
     border-left: #555;
@@ -185,9 +195,6 @@
 .linkpic li a:hover {
     text-decoration: underline;
     color: #1182c9;
-}
-.conlink {
-    padding: 0;
 }
 .bm {
     border-bottom: 1px solid #ddd;
