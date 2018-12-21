@@ -69,3 +69,13 @@ a {
     color: #666;
     padding: 3px;
 }
+.errorbbs .sub {
+    width: 90px;
+    background-color: #1387d1;
+    height: 32px;
+    border: 0;/*设置四个边框样式*/
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+}

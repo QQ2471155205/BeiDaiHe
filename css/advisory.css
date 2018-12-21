@@ -58,3 +58,13 @@ element.style {
 .errorbbs input[type=text] {
     height: 20px;
 }
+.errorbbs .sub {
+    width: 90px;
+    background-color: #1387d1;
+    height: 32px;
+    border: 0;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+}

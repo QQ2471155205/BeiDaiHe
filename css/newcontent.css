@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*新闻内容*/
+@charset "utf-8";
+.left {
+    width: 100%;
+    font-size: 16px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.left h1 {
+    line-height: 35px;
+    margin-top: 0.1em;
+    text-align: center;
+    font-weight: normal;
+    font-size: 22px;
+}
+.left h3 {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    margin-bottom: 0px;
+    height: 24px;
+    text-align: center;
+    padding-bottom: 0.8em;
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
+    border-bottom: 1px solid #e7eaec;
+}
+.left h3 a {
+    color: #2E92CD;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+.left .newscontent {
+    font-family: "FangSong_GB2312";
+    overflow: auto;
+    font-size: 22px;
+    padding: 0 72px;
+    line-height: 1.8em;
+}
+.left .newscontent p {
+    text-indent: 2em;
+    margin-top: 0.6em;
+    margin-left: 20px;
+}
+.updown {
+    border-top: 1px solid #e7eaec;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.updown a {
+    margin-left: 20px;
+    color: #3882B8;
+    padding-top: 8px;
+    margin-right: 40px;
+}
+.updown span {
+    font-weight: bold;
+}

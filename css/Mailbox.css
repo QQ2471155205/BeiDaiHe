@@ -19,3 +19,13 @@ element.style {
     font-size: 15px;
     margin-right: 20px;
 }
+.errorbbs .check {
+    width: 90px;
+    background-color: #e5a305;
+    height: 32px;
+    border: 0;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+}
